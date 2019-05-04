@@ -11,19 +11,6 @@ then
     exit 0
 fi
 
-#DIRS=$(find $LOCATION -type d)
-#FILES=$(find $LOCATION -type f)
-
-#for d in $DIRS
-#do
-#   DIRCOUNT=$[$DIRCOUNT+1]
-#done
-
-#for f in $FILES
-#do
-#   FILECOUNT=$[$FILECOUNT+1]
-#done
-
 for item in $LOCATION/*
 do
 if [ -f "$item" ]
